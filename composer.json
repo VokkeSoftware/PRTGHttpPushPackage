@@ -1,0 +1,21 @@
+{
+  "name": "vokkesoftware/prtg-http-push-wrapper",
+  "description": "Adds support for time/schedule task monitoring via PRTG.",
+  "keywords": ["laravel", "prtg", "php"],
+  "authors": [
+    {
+      "name": "Vokke",
+      "email": "technical@vokke.com.au"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "VokkeFlex\\PRTGResponder\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "ext-curl": "*"
+  }
+}
